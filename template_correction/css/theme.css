@@ -1,0 +1,125 @@
+/* Le code CSS de l'exercice dirigé */
+@font-face {
+    font-family: "SourceSans3";
+    src: local("SourceSans3-Regular"), local("SourceSans3-Semibold"), local("SourceSans3-SemiboldItalic"), local("SourceSans3-Italic") ;
+}
+@font-face {
+    font-family: "Courgette-Regular";
+    src: local("Courgette-Regular") ;
+}
+html {
+    font-size: 62.5%;
+    font-family: "SourceSans3";
+    font-size: 1.125rem;
+    color: #444;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+    
+body{
+    width: 100%;
+    text-align: center;
+    width: 980px;
+    margin: 0 auto 0 auto;
+}
+
+.header, .citation, .h1, .h2, .h3, .txt-centre, .txt-header {
+    font-family: "Courgette-Regular";
+} 
+.header {
+    color:#003884;
+    text-align: center;
+    font-weight: bold;
+}
+.h2 {
+    color:#4f89b9;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.text-header {
+    font-size: 21.25rem;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+.txt-header {
+    color:#003884;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+.txt-centre {
+    color:#003884;
+    background-color: #d7e1ef;
+    padding: 0px 40px 0px 40px ;
+    font-size: 1.563rem;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+.auteur {
+    font-size: 0.875rem;
+}
+.h2 {
+    color:#4f89b9;
+    text-align: center;
+    font-size: 2.188rem;
+}
+h3 {
+    color:#003884;
+    font-size: 2.188rem
+}
+.bleu-txt {
+    color:#003884;
+    font-weight: bolder;
+}
+
+.flag {
+    float: right;
+    margin-left: 15px;
+}
+.justify {
+    text-align: justify;
+}
+.image2 {
+    float: left;
+    margin-right: 15px;
+}
+.bleu-txt-italic {
+    font-style: italic;
+    color:#003884;
+}
+hr {
+    color: #003884;
+    height: 1px;
+    background-color: #003884;
+}
+
+.fa-brands {
+    text-align: center;
+    padding: -1px 1px -1px 1px;
+    font-size: 1.875rem;
+}
+.fa-square-facebook {
+    position: static;
+    font-size: 150%;
+    color: #003884;
+}
+.fa-square-pinterest {
+    position: static;
+    font-size: 150%;
+    color: #003884;
+}
+.fa-square-instagram {
+    position: static;
+    font-size: 150%;
+    color: #003884;
+}
+.logo3w {
+    position: static;
+    width: 55px;
+    height: 60px;
+}
